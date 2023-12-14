@@ -10,9 +10,20 @@ tweetBtn.addEventListener('click', function () {
 
 document.addEventListener('click', function (e) {
   if (e.target.dataset.like) {
-    console.log(e.target.dataset.like);
+    handleLikeClick(e.target.dataset.like);
   }
 });
+
+const handleLikeClick = (tweetId) => {
+  const targetTweetObj = tweetsData.find((t) => t.uuid === tweetId);
+  if (targetTweetObj.isLiked) {
+    targetTweetObj.likes -= 1;
+  } else {
+    targetTweetObj.likes += 1;
+  }
+  targetTweetObj.isLiked = !targetTweetObj.isLiked;
+  render();
+};
 
 const getFeedHtml = () => {
   let feedHtml = '';
