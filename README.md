@@ -1,6 +1,7 @@
 # Twitter Clone
 
 🐦 Twitter clone (called Twimba) built while learning essential JavaScript concepts through Frontend Developer Bootcamp on Scrimba.
+<br>
 <img width="250" alt="Twimba showcase screenshot 1" src="https://github.com/lucieyarish/twitter-clone/assets/79669599/f0d95727-a01f-4c22-b17b-db471069b96d">
 <img width="250" alt="Twimba showcase screenshot 2" src="https://github.com/lucieyarish/twitter-clone/assets/79669599/4171e12a-4f09-46dd-a644-c94998ed6fa6">
 <img width="250" alt="Twimba showcase screenshot 3" src="https://github.com/lucieyarish/twitter-clone/assets/79669599/a7e8077a-e74d-4ccc-9eba-2551d946695a">
