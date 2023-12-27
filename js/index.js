@@ -66,8 +66,8 @@ const getFeedHtml = () => {
   let feedHtml = '';
 
   tweetsData.forEach(function (tweet) {
-    let likeIconClass = tweet.isLiked ? 'liked' : '';
-    let retweetIconClass = tweet.isRetweeted ? 'retweeted' : '';
+    const likeIconClass = tweet.isLiked ? 'liked' : '';
+    const retweetIconClass = tweet.isRetweeted ? 'retweeted' : '';
 
     let repliesHTML = '';
     if (tweet.replies.length > 0) {
